@@ -1,12 +1,9 @@
-import {Button} from "@/components/ui/button";
-
-const Page = () => {
+const Page = async () => {
     return (
-        <div className={"font-bold text-2xl text-rose-500"}>
-            <Button variant={"destructive"}>
-                Click Me
-            </Button>
+        <div>
+            Hello World!!
         </div>
     )
 }
-export default Page
+
+export default Page;
